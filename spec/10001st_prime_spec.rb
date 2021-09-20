@@ -1,4 +1,4 @@
-describe "#prime_number_for(nth_element)" do
+describe "#prime_number_for(nth_element)" do 
   it 'returns 3 when 2 is passed in' do
     expect(prime_number_for(2)).to eq(3)
   end
